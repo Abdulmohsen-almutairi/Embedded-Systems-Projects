@@ -1,72 +1,46 @@
 # Embedded Systems Project Portfolio
 
-This repository organizes six academic projects completed for the **Microprocessors & Embedded Systems Lab (CEN-412)** in the Department of Computer Engineering at the University of Tabuk. Each project has its own README, Arduino source file, standalone English PDF report, editable LaTeX source (.tex), and reference images from the original lab report.
+This repository contains six academic projects completed for the Microprocessors & Embedded Systems Lab (CEN-412) at the University of Tabuk, Department of Computer Engineering.
+
+Each project includes its source code, project report, and related images.
 
 ## Projects
 
 | # | Project | Main Concepts | Folder |
 |---|---|---|---|
-| 01 | Four-Way Traffic Light Control System | Embedded C/C++, Digital I/O, Interrupt handling | [`traffic-light-control/`](traffic-light-control/) |
-| 02 | Ultrasonic Garage Parking Assistant | Ultrasonic distance measurement, Shift-register communication, Display multiplexing | [`garage-parking-sensor/`](garage-parking-sensor/) |
-| 03 | Arduino Temperature Data Logger | Analog sensor reading, Thermistor resistance calculation, Beta-equation temperature conversion | [`temperature-data-logger/`](temperature-data-logger/) |
-| 04 | Smart Door Security System | RFID authentication, Keypad input processing, Servo control | [`smart-door-security/`](smart-door-security/) |
-| 05 | Automatic Home Humidifier Controller | Sensor integration, Closed-loop threshold control, Relay and motor-driver control | [`automatic-humidifier/`](automatic-humidifier/) |
-| 06 | RFID Time and Attendance System | RFID tag reading, RTC timestamping, SPI communication | [`rfid-attendance-system/`](rfid-attendance-system/) |
+| 01 | Traffic Light | Embedded C/C++, Digital I/O, Interrupt Handling | `Project (1) Traffic Light/` |
+| 02 | Parking Sensor for Garage Side | Ultrasonic Distance Measurement, Shift-Register Communication, Display Multiplexing | `Project (2) Parking Sensor for Garage Side/` |
+| 03 | Arduino Temperature Data Logger | Analog Sensor Reading, Thermistor Resistance Calculation, Beta-Equation Temperature Conversion | `Project (3) Arduino Temperature Data Logger/` |
+| 04 | Smart Home Security System | RFID Authentication, Keypad Input Processing, Servo Control | `Project (4) Smart Home Security System/` |
+| 05 | Home Controllable Humidifier | Sensor Integration, Humidity Control, Relay and Motor-Driver Control | `Project (5) Home controllable humidifier/` |
+| 06 | Arduino Time Attendance System with RFID | RFID Identification, Real-Time Clock (RTC), Attendance Logging | `Project (6) Arduino Time Attendance System with RFID/` |
 
-## Repository Structure
+## Project Contents
 
-```text
-Embedded-Systems-Portfolio/
-├── README.md
-├── traffic-light-control/
-│   ├── README.md
-│   ├── code/main.ino
-│   ├── docs/traffic_light_control_report.pdf
-│   └── images/
-├── garage-parking-sensor/
-│   ├── README.md
-│   ├── code/main.ino
-│   ├── docs/garage_parking_sensor_report.pdf
-│   └── images/
-├── temperature-data-logger/
-│   ├── README.md
-│   ├── code/main.ino
-│   ├── docs/temperature_data_logger_report.pdf
-│   └── images/
-├── smart-door-security/
-│   ├── README.md
-│   ├── code/main.ino
-│   ├── docs/smart_door_security_report.pdf
-│   └── images/
-├── automatic-humidifier/
-│   ├── README.md
-│   ├── code/main.ino
-│   ├── docs/automatic_humidifier_report.pdf
-│   └── images/
-├── rfid-attendance-system/
-│   ├── README.md
-│   ├── code/main.ino
-│   ├── docs/rfid_attendance_system_report.pdf
-│   └── images/
-└── source_reference/ (optional original lab PDF)
-```
+Depending on the project, its folder may contain:
 
-## Getting Started
+- **README.md** — Project overview and description.
+- **Source Code** — Arduino or embedded C/C++ code.
+- **Report** — Project documentation in PDF format.
+- **LaTeX Source** — Editable `.tex` report source.
+- **Images** — Reference images from the original lab report.
 
-1. Open the project folder you want to explore.
-2. Read its README for the project overview, components, logic, and limitations.
-3. Review the PDF report and reference images.
-4. Open `code/main.ino` in Arduino IDE and install the libraries required by that sketch.
-5. Select the appropriate Arduino board and port, then compile and test with the actual circuit.
+## Technologies and Components
 
-## Important Notes
+- Arduino and Embedded C/C++
+- Sensors and Digital Input/Output
+- RFID and Keypad Authentication
+- Real-Time Clock (RTC)
+- LCD and Shift Registers
+- Servo Motors, Relays, and Motor Drivers
+- Temperature and Humidity Monitoring
 
-- These are educational prototypes, not certified production systems.
-- Pin assignments, component models, library versions, and circuit wiring must match the actual build.
-- The source files were transcribed from the supplied lab report. PDF text extraction can introduce formatting or transcription issues; review and compile each sketch before publishing or using it.
-- The smart door project includes example credentials in the source and must not be used as a real access-control system without redesigning its security.
-- The attendance project describes database integration, but the Arduino sketch primarily transmits records over serial; a separate computer-side integration may be required.
+## Academic Context
 
-## License
+**Course:** CEN-412 — Microprocessors & Embedded Systems Lab  
+**Department:** Computer Engineering  
+**University:** University of Tabuk, Saudi Arabia
 
-Unless a license is added, all rights remain with the respective authors. For a public portfolio, add a license only if you have permission to distribute the project materials and code.
+## Note
+
+These projects were developed for academic and educational purposes. Hardware configurations, libraries, and source code may require review or modification before practical use.
