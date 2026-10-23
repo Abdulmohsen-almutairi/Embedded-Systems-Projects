@@ -44,6 +44,3 @@ Each project folder contains its own project files, including documentation, sou
 - The smart door project includes example credentials in the source and must not be used as a real access-control system without redesigning its security.
 - The attendance project describes database integration, but the Arduino sketch primarily transmits records over serial; a separate computer-side integration may be required.
 
-## License
-
-Unless a license is added, all rights remain with the respective authors. For a public portfolio, add a license only if you have permission to distribute the project materials and code.
